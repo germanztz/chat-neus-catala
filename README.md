@@ -1,8 +1,8 @@
-
-
 # chat-neus-catala
 
-Un projecte per a xat/assistència en català basat en models de llenguatge. Aquest repositori aglutina codi, recursos i configuracions per a executar un assistent conversacional local o al núvol amb suport en català (Neus/Català).
+<p><img src="static/ok0035868-neus_catala_-5-web.jpg" alt="neus" style="max-width:100px;height:auto;"></p>
+
+Un projecte per a xat/assistència en català basat en models de llenguatge. Aquest repositori aglutina codi, recursos i configuracions per a executar un assistent conversacional local o al núvol [...] 
 
 ## Característiques
 
