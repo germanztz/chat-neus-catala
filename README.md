@@ -108,33 +108,54 @@ Copia i edita el fitxer d'exemple de configuració si n'hi ha (.env.example -> .
 - Executa els scripts d'ingestió o l'aplicació principal, per exemple:
 
   python neus-catala-model.py
-  # o l'script/entrypoint que tinguis al projecte
+  o l'script/entrypoint que tinguis al projecte
 
 Això crearà (o reutilitzarà) la base de dades Chroma persistent definida a data/neus_catala.db i et permetrà fer consultes RAG a través de LlamaIndex + Ollama.
 
 ## Ús
 
-(Conservar instruccions d'ús prèvies i exemples d'execució.)
+Els passos concrets per iniciar l'aplicació poden variar segons la implementació. Exemple general:
+
+- Inicieu el servidor:
+
+  python -m src.app
+
+- Obriu el navegador a http://localhost:8000 o el port configurat i comenceu a xatejar en català.
+
+(Adapteu aquestes instruccions als scripts reals del vostre projecte, per exemple: `uvicorn src.main:app --reload` o `docker compose up`.)
 
 ## Desplegament
 
-(Conservar instruccions prèvies.)
+Opcions comunes de desplegament:
+
+- Docker / Docker Compose
+- Serveis en el núvol (AWS, GCP, Azure)
+- Plataformes de PaaS (Heroku, Render, Railway)
+
+Afegeix i documenta els fitxers de Docker si vols suportar desplegament containeritzat.
 
 ## Contribuir
 
-(Conservar instruccions prèvies.)
+Gràcies per voler contribuir! Algunes bones pràctiques:
+
+1. Fork i crea una branca per la teva millora: `git checkout -b feature/nou-element`
+2. Fes commits petits i descriptius.
+3. Obre una pull request amb una descripció clara del canvi.
+4. Afegeix proves i documentació si cal.
+
+Segueix l'estil de codi existent i inclou proves unitàries en la mesura del possible.
 
 ## Reportar errors i sol·licitud de noves funcionalitats
 
-(Conservar instruccions prèvies.)
+Obre un issue a GitHub amb el títol i la descripció detallada. Inclou passos per reproduir l'error i l'entorn (OS, versions, configuracions).
 
 ## Internacionalització
 
-(Conservar instruccions prèvies.)
+Aquest projecte posa especial atenció al català. Si afegeixes suport per a altres variants (valencià, balear) o idiomes, documenta com canviar la llengua per defecte.
 
 ## Privadesa i dades
 
-(Conservar instruccions prèvies.)
+Si el projecte processa dades d'usuaris, afegeix una secció sobre com es gestionen i emmagatzemen aquestes dades, compliment de regulacions (p. ex. RGPD) i recomanacions per a anonimització.
 
 ## Llicència
 
