@@ -1,8 +1,21 @@
 # chat-neus-catala
 
-<p><img src="static/ok0035868-neus_catala_-5-web.jpg" alt="neus" style="max-width:100px;height:auto;"></p>
-
 Un projecte per a xat/assistència en català basat en models de llenguatge. Aquest repositori aglutina codi, recursos i configuracions per a executar un assistent conversacional local o al núvol.
+
+<table><tr><td style="width:200px;height:auto;">
+  <img src="static/ok0035868-neus_catala_-5-web.jpg" alt="neus" >
+</td>
+<td>
+Aquest és un treball de recerca voluntari que ha estat dissenyat per servir com a prova pilot d’un projecte més ampli. L’objectiu principal del projecte és proporcionar una interficie de xat que permeti als usuaris consultar els documents digitalitzats de la [Funcació Neus Català](https://neuscatala.cat/). 
+
+Aquesta iniciativa busca millorar l’accessibilitat i la recerca d’aquests materials, que són d’una gran importància cultural i històrica per a la comunitat catalana. Mitjançant l’ús d’una interficie de xat, es vol facilitar la interacció amb els usuaris, permetent-los fer preguntes de manera natural i obtenir respostes basades en la consulta dels documents digitalitzats. Aquesta prova pilot pretén avaluar la viabilitat tècnica i funcional d’aquesta proposta, així com la seva utilitat per a l’ús real. 
+
+L’interfície es dissenyarà per ser intuitiva i fàcil d’utilitzar, adaptant-se a diferents nivells de coneixement tecnològic dels usuaris. A més, es preveu que aquesta eina sigui inclusiva, permetent l’ús per a persones amb discapacitats visuals o motrius, mitjançant funcionalitats com la lectura per veu o la compatibilitat amb dispositius d’ajuda. Aquest projecte també busca contribuir a la preservació i difusió del patrimoni cultural català, fomentant la recerca acadèmica, l’ensenyament i l’interès general per la història i la cultura del nostre país. 
+
+La prova pilot permetrà recollir feedback dels usuaris i ajustar els aspectes tècnics i de disseny segons les necessitats reals. A més, aquest treball de recerca voluntari pretén servir com a base per a futurs desenvolupaments, potenciant la col·laboració entre el sector públic, l’acadèmia i el món de la tecnologia. 
+
+En resum, aquest projecte representa una oportunitat única per innovar en la manera com els usuaris poden accedir i explorar els documents digitalitzats de la [Funcació Neus Català](https://neuscatala.cat/), obrint camí a una nova era de consulta i interacció amb aquests materials d’interès general.
+</td></tr></table>
 
 ## Característiques
 

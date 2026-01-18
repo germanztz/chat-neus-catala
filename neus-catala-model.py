@@ -32,7 +32,7 @@ load_dotenv()
 #     endpoint="https://llamatrace.com/v1/traces"
 # )
 
-DATA_PATH = "chat-neus-catala/data/"
+DATA_PATH = "./data/"
 embedding_model = OllamaEmbedding(model_name="qllama/bge-small-en-v1.5:f16", base_url="http://localhost:11434")
 from llama_index.llms.ollama import Ollama 
 llm = Ollama(model="qwen2.5:7b-instruct", base_url="http://localhost:11434") # Funciona de manera satisfactoria

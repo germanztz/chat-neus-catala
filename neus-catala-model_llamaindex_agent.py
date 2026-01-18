@@ -10,7 +10,7 @@ Settings.embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-base-en-v1.5")
 Settings.llm = Ollama(model="llama3.2:latest", request_timeout=360.0)
 
 # Create a RAG tool using LlamaIndex
-documents = SimpleDirectoryReader("/home/daimler/workspaces/agents-course-huggingface/chat-neus-catala/data/documents").load_data()
+documents = SimpleDirectoryReader("./documents/").load_data()
 index = VectorStoreIndex.from_documents(
     documents,
     show_progress=True
